@@ -1,6 +1,6 @@
 # Algorithm Practice
 
-This repository contains my personal practice of Algorithms and Data structures. I update it from time to time once I practice.
+This repository contains my personal practice of Algorithms and Data structures.
 
 ## Resources
 
