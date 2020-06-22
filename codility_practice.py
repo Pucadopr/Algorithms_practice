@@ -36,23 +36,16 @@ def negativetemp(temperatures):
     return days 
 
 
-# array= [1,2,3,4,5,6,7,8]
+# Algorithm to reverse an Array
 
-# def reverseArray(A):
+def reverseArray(A):
 
-#     a= len(A)
-#     for i in range(a//2):
-#         k= a-i- 1
-#         A[i], A[k]= A[k], A[i]
+    a= len(A)
+    for i in range(a//2):
+        k= a-i- 1
+        A[i], A[k]= A[k], A[i]
     
-#     return A
-
-# print(reverseArray(array))
-
-# def solution(A, k):
-#     A= 
-
-# print(5%4)
+    return A
 
 # def count(n):
 #     B=0
