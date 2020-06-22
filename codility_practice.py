@@ -20,22 +20,20 @@ def solution(n):
 
     return max([len(i) for i in c])
 
+def max_gap(N):
+    xs = bin(N)[2:].strip('0').split('1')
+    return max([len(x) for x in xs])
 
 
-# def max_gap(N):
-#     xs = bin(N)[2:].strip('0').split('1')
-#     return max([len(x) for x in xs])
+# Algorithm to determine the number of negative temperatures in a given Array
+def negativetemp(temperatures):
 
-# print(solution(300))
+    days= 0
+    for temp in temperatures:
+        if temp<0:
+            days+=1
 
-# def negativetemp(temperatures):
-
-#     days= 0
-#     for temp in temperatures:
-#         if temp<0:
-#             days+=1
-
-#     return days 
+    return days 
 
 
 # array= [1,2,3,4,5,6,7,8]
