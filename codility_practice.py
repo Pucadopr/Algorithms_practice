@@ -1,25 +1,24 @@
-# def getfactorial(n):
-#     factorial = 1
-#     for i in range(1, n+1):
-#         factorial*=i
+# List of Algorithms/Functions from Codility practices
 
-#     return factorial
+def getfactorial(n):
+    '''
+    Get the factorial of a given number
+    '''
+    factorial = 1
+    for i in range(1, n+1):
+        factorial*=i
 
-# print(getfactorial(4))
+    return factorial
 
+# Algorithm to 
 
-# for i in range(1, 5):
-#     for j in range(i):
-#         print ('* ' * j)
-#     print
+def solution(n):
 
-# def solution(n):
+    a= bin(n).replace("0b", "")
+    b= a.strip('0')
+    c= b.split('1')
 
-#     a= bin(n).replace("0b", "")
-#     b= a.strip('0')
-#     c= b.split('1')
-
-#     return max([len(i) for i in c])
+    return max([len(i) for i in c])
 
 
 
@@ -65,38 +64,47 @@
 
 # print(count(2))
 
-# J= [1,2,3,4,6]
-# def solution(N):
-#     a= min(N)
-#     b= max(N)
+# Pushing and poping Values from a stack
 
-#     for i in range(a, b+1):
-#         if i not in N:
-#             return i 
+J= [1,2,3,4,6]
+def solution(N):
+    a= min(N)
+    b= max(N)
 
-# print(solution(J))
+    for i in range(a, b+1):
+        if i not in N:
+            return i 
 
-# stack= [0,1,2,3,4,5,6,7,8,9]
-# size= 0
+print(solution(J))
 
-# def push(x):
-#     stack.append(x)
+# Pushing and poping Values from a stack
 
-#     print (stack)
+stack= [0,1,2,3,4,5,6,7,8,9]
+size= 0
 
-# push(8)
+def push(x):
+    '''
+    push a value to the stack
+    '''
+    stack.append(x)
 
-# def pop(x):
-#     global size
-#     size-=1
-#     stack[size]= x
+push(8)
+
+def pop(x):
+    '''
+    Removing a value from the stack
+    '''
+    global size
+    size-=1
+    stack[size]= x
 
 
+# Function to get the sum of numbers divisible by 3 and 5 for a given number  
 
 def summ(x):
     '''
-    Function to get the 
-
+    Algorithm to get the sum of numbers divisible by 3 and 5 
+    between 1 and a given number  
     '''
     a=[]
     for i in range(0, x):
@@ -105,5 +113,4 @@ def summ(x):
     
     return sum(a)
 
-print(summ(10))
 
