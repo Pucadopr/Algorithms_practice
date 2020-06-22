@@ -10,7 +10,7 @@ def getfactorial(n):
 
     return factorial
 
-# Algorithm to 
+# Algorithm to determine maximum number of consecutive 1s in a Binary number
 
 def solution(n):
 
