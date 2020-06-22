@@ -47,26 +47,15 @@ def reverseArray(A):
     
     return A
 
-# def count(n):
-#     B=0
-#     for i in range (1, n+1):
-#         B+=i
-#     return B
+# Algo to find Sum of numbers before N
+def count(n):
+    B=0
+    for i in range (1, n+1):
+        B+=i
+    return B
 
-# print(count(2))
+print(count(2))
 
-# Pushing and poping Values from a stack
-
-J= [1,2,3,4,6]
-def solution(N):
-    a= min(N)
-    b= max(N)
-
-    for i in range(a, b+1):
-        if i not in N:
-            return i 
-
-print(solution(J))
 
 # Pushing and poping Values from a stack
 
