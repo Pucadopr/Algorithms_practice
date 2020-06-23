@@ -1,16 +1,17 @@
-# y= [[2,1], [4, 3]]
-# z= [[1,2], [3, 4]]
-# x= [[0,0], [0, 0]]
+# Matrix multiplication 
 
-# print(range(len(y)))
-# print(len(y[0]))
+y= [[2,1], [4, 3]]
+z= [[1,2], [3, 4]]
+x= [[0,0], [0, 0]]
 
-# for i in range(len(y)):
-#     for j in range(len(y[0])):
-#         x[i][j]= y[i][j]* z[i][j]
-#         print(x[i][j])
+print(range(len(y)))
+print(len(y[0]))
 
-# print(x)
+for i in range(len(y)):
+    for j in range(len(y[0])):
+        x[i][j]= y[i][j]* z[i][j]
+        print(x[i][j])
+
 
 # N= 12
 
